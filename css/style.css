@@ -1,0 +1,171 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 400;
+}
+
+.navbar-container {
+  padding: 0 15px;
+}
+
+.nav__logo {
+    height: 34px;
+    width: auto;
+    background: #2196F3;
+    padding: 5px;
+}
+
+.dropdown-title {
+  color: #505050;
+}
+
+.dropdown-menu.show {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+/* .dropdown-menu li a::before {
+    content: '\25AA'; 
+    padding-right: 5px; 
+    color: #000; 
+    
+} */
+#nav-list {
+    list-style-type: square;
+    padding: 10px 20px 27px 40px;
+ 
+}
+.dropdown-menu li {
+    height: 24px;
+    color: #505050;
+    margin-left: 40px;
+}
+
+.dropdown-menu h5 {
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+li .dropdown-item {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 16px;
+    color: #505050;
+    padding-left: 0;
+}
+
+/* .wrapper {
+  height: 100vh;
+} */
+  
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+p {
+  margin: 15px;
+  font-size: 1.1rem;
+}
+
+.parallax-img {
+  background-image: url(../img/home-euromask.jpeg);
+  padding-top: 100px;
+  height: 400px;
+}
+  
+.main__title {
+  color: #F9fff9;
+  text-shadow: 1px 1px #000000;
+}
+
+.card .card__overlay {
+  display: none;
+  background-color: rgba(0,0,0,0.7);
+  padding: 0;
+}
+
+.card:hover > .card__overlay {
+  display: block;
+}
+.card-button {
+  width: max-content;
+  background-color: rgba(73, 160, 105, 0.9);
+  border: solid 1px rgb(255, 255, 255);
+  padding: 7px 14px;
+  margin: 50px auto 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-button__title {
+  width: 100%;
+  border: none;
+  margin: 0 auto;
+  position: relative;
+  
+ 
+}
+
+.card-button {
+  font-size: 14px;
+  text-align: center;
+}
+
+.card-button__title h2 {
+  font-size: 17px;
+}
+
+.card-button__title h2 span {
+  font-size: 11px;
+}
+
+.card-button:hover {
+  color: #fff;
+}
+
+.card .card__img {
+  max-width: 100%;
+    height: auto;
+    width: min-content;
+}
+
+.main__gallery .card {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.nav-item .dropdown-menu {
+  margin-top: 2px;
+  padding-bottom: 28px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 20px;
+  color: #666;
+  padding: 10px 15px;
+}
+
+.footer {
+  background-color: rgba(4,31,19,.8);
+    color: #ccd3d0;
+    padding: 30px 15px 30px 15px;
+}
+
+.nav__logo_footer {
+  background: transparent;
+}
